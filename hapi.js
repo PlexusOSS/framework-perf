@@ -20,7 +20,7 @@ server.route({
 
 const init = async () => {
   await server.start();
-  console.log('Hapi server started on port 3000...');
+  console.log('Hapi server listening on port 3000...');
 }
 
 process.on('unhandledRejection', (err) => {
