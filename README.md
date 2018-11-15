@@ -8,6 +8,7 @@ framework-perf is a performance test suite comparing multiple NodeJS frameworks 
   - Restana(2.3.2)
   - Restify(7.2.2)
   - Hapi(17.7.0)
+  - Fastify(1.13.0)
 
 # Minimum Requirements
   - NodeJS 8+
@@ -25,3 +26,4 @@ From a command line(bash, terminal, cmd, powershell), run `node <server>.js` rep
  - hapi.js
  - restify.js
  - koa2.js
+ - fastify.js
