@@ -1,9 +1,9 @@
 const service = require('restana')();
 
 service.get('/', (req, res) => {
-  res.status(200).send({
+  res.send({
     msg: 'Hello Human!'
-  });
+  }, 200);
 });
 
 service.start(3000).then(() => {
