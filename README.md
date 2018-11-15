@@ -11,3 +11,14 @@ framework-perf is a performance test suite comparing multiple NodeJS frameworks 
 
 # Load Testing
 Included is a basic load test file intended for use with k6 from LoadImpact. Instructions for Linux, Mac and Windows are included in the `load.js` file.
+
+# Running Servers
+From a command line(bash, terminal, cmd, powershell), run `node <server>.js` replacing <server> with the name of the framework. All servers will start on port 3000.
+
+## Server List
+ - express.js
+ - restana.js
+ - native.js
+ - hapi.js
+ - restify.js
+ - koa2.js
