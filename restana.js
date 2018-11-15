@@ -7,5 +7,5 @@ service.get('/', (req, res) => {
 });
 
 service.start(3000).then(() => {
-  console.log('Server listening on port 3000...')
+  console.log('Restana server listening on port 3000...')
 });
